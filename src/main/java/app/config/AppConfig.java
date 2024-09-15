@@ -20,7 +20,7 @@ public class AppConfig {
     }
 
     @Bean(name = "animalDog")
-    @Qualifier("animalsCage")
+//    @Qualifier("animalsCage")
     public Animal getAnimalDog() {
         Animal animal = new Dog();
         return animal;
